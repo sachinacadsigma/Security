@@ -1,12 +1,12 @@
 {
   "sp": {
-    "entityId": "https://jolly-sea-03e4a990f.5.azurestaticapps.net/meta",
+    "entityId": "https://jolly-sea-03e4a990f.5.azurestaticapps.net/qa",
     "assertionConsumerService": {
-      "url": "https://devaiwebfunctions-evaffrf2behvf8hf.eastus2-01.azurewebsites.net/saml/callback",
+      "url": "https://devaiwebfunctions-evaffrf2behvf8hf.eastus2-01.azurewebsites.net/saml/qa",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" 
     },
     "singleLogoutService": {
-      "url": "http://127.0.0.1:5000/logout/callback",
+      "url": "http://127.0.0.1:5000/logout/qa",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     },
     "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
