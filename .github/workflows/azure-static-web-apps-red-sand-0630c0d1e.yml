@@ -3,11 +3,12 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - qa
+      - qa  # Only triggers on push to main
   pull_request:
-    types: [opened, synchronize, reopened, closed]
+    types: [closed]  # Only triggers when PR is merged
     branches:
-      - qa
+      - qa # Only when PR is merged into main
+
 
 jobs:
   build_and_deploy_job:
