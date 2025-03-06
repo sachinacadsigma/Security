@@ -1,0 +1,12 @@
+.dot {
+    transition: transform 0.2s;
+  }
+  
+  input:checked + .dot {
+    transform: translateX(100%);
+  }
+  
+  input:checked + .w-14 {
+    background-color: #2247ee; /* Change background when checked */
+  }
+  

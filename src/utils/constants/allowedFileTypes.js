@@ -1,0 +1,50 @@
+const deepl = [
+  'docx',
+  'doc',
+  'pptx',
+  'xlsx',
+  'pdf',
+  'htm',
+  'html',
+  'txt',
+  'xlf',
+  'xliff',
+  'srt',
+];
+
+const azure = [
+  'pdf',
+  'csv',
+  'html',
+  'htm',
+  'xlf',
+  'markdown',
+  'mdown',
+  'mkdn',
+  'md',
+  'mkd',
+  'mdwn',
+  'mdtxt',
+  'mdtext',
+  'rmd',
+  'mhtml',
+  'mht',
+  'xls',
+  'xlsx',
+  'msg',
+  'ppt',
+  'pptx',
+  'doc',
+  'docx',
+  'odt',
+  'odp',
+  'ods',
+  'rtf',
+  'tsv',
+  'tab',
+  'txt',
+];
+
+const allowedFileTypes = { deepl, azure };
+
+export default allowedFileTypes;
